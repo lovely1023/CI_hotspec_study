@@ -1,0 +1,366 @@
+<!--Top banner-->
+<?php
+
+if(empty(get_cookie('newssubscribe')
+)) {
+	
+?>
+<div class="popup">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLongTitle">Subscribe here</h5>
+				<a href='' class='close'><span aria-hidden="true">×</span></a>
+			</div>
+			<div class="modal-body">
+			   <div class="subcribemsg" style="color:green;display:none;">
+			   <p>Thank you for subscribing to our News!</p> 
+                <p>Have a great day!</p>
+			   </div>
+				<form method="POST" id="subscribeform" onsubmit="return subscribe();">
+				 <input type="hidden" name="page" value="News"/>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="email" class="form-control" id="subscribeemail" name="email" placeholder="Enter your Email" required>
+						</div>
+						<div class="col-md-12">
+						<div class="learn-link">
+							<button type="submit"  class="bg-orange_red">Subscribe Now</button>
+						</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+<?php
+}
+?>	
+<section class="hero-banner stories-hero-banner">
+ <?php
+	if(count($banners))
+	{
+	 foreach($banners as $banner)
+	 {
+	?>
+		<div class="item">
+			<div class="banner-slider" style="background-image: url(<?php echo ASSETS;?>upload/<?php echo $banner->image ?>);">
+				<div class="banner_frame">
+					<img src="<?php echo ASSETS;?>frontend/images/inner_shape.png" alt="" class="img-fluid">
+				</div>
+
+				<div class="container">
+					<div class="row">
+					<?php echo $banner->description ?>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+    <?php
+	 }
+	 }
+	?>	
+</section>
+
+	<!--OUR NEWS-->
+	<section class="blog-banner news-page-banner">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-8">
+
+					<div class="">
+						<div class="row mx-0">
+                          <?php
+						 if(!empty($newss))
+						 {							 
+						  foreach($newss as $news)
+						  {
+						  ?>
+							<div class="col-md-12 px-0">
+								<div class="news-box border-0 py-0 mb-0 news-top-box">
+									<div class="row">
+										<div class="col-md-5">
+											<div class="news-img">
+												<a href="<?php echo BASE_URL ?>newsdetail/<?php echo $news->id; ?>">
+													<img src="<?php echo ASSETS;?>upload/news/<?php echo $news->image; ?>" alt="" class="img-fluid">
+												</a>
+											</div>
+										</div>
+										<div class="col-md-7 pl-0">
+											<div class="news-text-box">
+												<div class="news-text">
+													<a href="<?php echo BASE_URL ?>newsdetail/<?php echo $news->id; ?>" class="tc-sapphire">
+														<h2><?php echo $news->title; ?></h2>
+													</a>
+													<?php echo $news->short_description; ?>
+												</div>
+												<div class="news-publish-box">
+													<div class="news-publish">
+														<p>Published : <span> <?php echo date('d-m-Y H:i',strtotime($news->created_at)); ?> </span></p>
+													</div>
+													<div class="news-publish-read">
+														<a href="<?php echo BASE_URL ?>newsdetail/<?php echo $news->id; ?>" class="bg-orange_red">Read More<i
+																class="fa fa-caret-right"></i></a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+					    <?php
+						
+						}
+						 }else
+						 {
+							 ?>
+							 <div class="col-md-12 px-0">News not found</div>
+							 <?php
+							 
+						 }
+						?>		
+
+							
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-md-4">
+					<div class="right-blog">
+						<div class="row mx-0">
+
+							<div class="col-md-12 p-0">
+								<div class="blog-form">
+									<form>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="select-search">
+													<h4 class="tc-sapphire">search</h4>
+												</div>
+											</div>
+
+											<div class="col-md-12">
+												<input type="text" name="search" value="<?php echo $_REQUEST['search']; ?>"  class="form-control"
+													placeholder="Enter your search content" required>
+											</div>
+
+											<div class="col-md-12">
+												<div class="select-control">
+													<select name="cat" id="cat">
+														<option value="" selected disabled>All Categories</option>
+														 <?php
+														  
+														  foreach($categories as $cat)
+														  {
+														  ?>
+														<option <?php if($_REQUEST['cat']==$cat->id){ echo'selected'; } ?> value="<?php echo $cat->id; ?>"><?php echo $cat->name; ?></option>
+														<?php
+														  }
+														?>
+														
+													</select>
+												</div>
+											</div>
+
+											<div class="col-md-12">
+												<div class="search-btn">
+													<button class="btn bg-orange_red">
+														<i class="fa fa-search" aria-hidden="true"></i>Search
+													</button>
+												</div>
+											</div>
+
+										</div>
+									</form>
+								</div>
+							</div>
+                      <?php
+					
+					$contact=getContact();
+					?>
+							<div class="col-md-12 p-0">
+								<div class="follow-news">
+									<div class="follow-heading">
+										<h3 class="tc-sapphire">Follow us</h3>
+									</div>
+									<div class="follow-link">
+										<a href="<?php echo $contact->linkedin_link; ?>" class="tc-sapphire" target="_blank" >
+											<i class="fa fa-linkedin"></i>
+										</a>
+										<a href="<?php echo $contact->facebook_link; ?>" class="tc-sapphire" target="_blank">
+											<i class="fa fa-facebook"></i>
+										</a>
+										<a href="<?php echo $contact->twitter_link; ?>" class="tc-sapphire" target="_blank">
+											<i class="fa fa-twitter"></i>
+										</a>
+										<a href="<?php echo $contact->google_link; ?>" class="tc-sapphire" target="_blank">
+											<i class="fa fa-google-plus"></i>
+										</a>
+										<a href="<?php echo $contact->instagram_link; ?>" class="tc-sapphire" target="_blank">
+											<i class="fa fa-instagram"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-12 p-0">
+								<div class="post-slider-box categorie-box">
+
+									<div class="post-title">
+										<h4 class="tc-sapphire">Categories</h4>
+									</div>
+
+									<div class="categorie-table">
+										<table class="table">
+										<?php
+														  
+											  foreach($categories as $cat)
+											  {
+											  ?>
+											  <tr>
+												<td>
+													<a href="<?php echo BASE_URL ?>news/?cat=<?php echo $cat->id; ?>"><?php echo $cat->name; ?></a>
+												</td>
+												<td>
+													<a href="<?php echo BASE_URL ?>news/?cat=<?php echo $cat->id; ?>"><?php echo get_category_count($cat->id); ?></a>
+												</td>
+											</tr>
+										
+											<?php
+											  }
+											?>											
+											
+										</table>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-12 p-0">
+								<div class="post-slider-box">
+
+									<div class="post-title">
+										<h4 class="tc-sapphire">Popular Posts</h4>
+									</div>
+
+									<div class="post-slider slider-nav">
+                                       <?php 
+									   foreach($popular_newss as $news)
+									   {
+									   ?>
+										<div class="item">
+											<div class="row mx-0">
+
+												<div class="col-md-12 px-0">
+													<div class="post-img">
+														<img src="<?php echo ASSETS;?>upload/news/<?php echo $news->image; ?>" alt="" class="img-fluid">
+													</div>
+												</div>
+
+												<div class="col-md-12 px-0">
+													<div class="post-box">
+														<a href="<?php echo BASE_URL ?>newsdetail/<?php echo $news->id; ?>" class="tc-sapphire"><?php echo $news->title; ?></a>
+														<div class="post-read-box justify-content-end">
+															<div class="post-read">
+																<a href="<?php echo BASE_URL ?>newsdetail/<?php echo $news->id; ?>" class="bg-orange_red">Read More<i
+																		class="fa fa-caret-right"></i></a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+                                       <?php
+									   }
+									   ?>
+									   
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--MOST VIEWED-->
+	<section class="article-banner">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-12">
+					<div class="article-heading">
+						<h2 class="tc-sapphire"> MOST <span class="tc-orange_red"> VIEWED </span> </h2>
+					</div>
+				</div>
+               <?php 
+			   foreach($most_views_newss as $news)
+			   {
+			   ?>
+				<div class="col-lg-4 col-md-6 col-sm-6 d-flex">
+					<div class="article-box">
+						<div class="simple-news-text">article</div>
+						<div class="article-img">
+							<img src="<?php echo ASSETS;?>upload/news/<?php echo $news->image; ?>" alt="">
+						</div>
+						<div class="article-text">
+							<a href="<?php echo BASE_URL ?>newsdetail/<?php echo $news->id; ?>" class="tc-sapphire">
+								<h4><?php echo $news->title; ?>…</h4>
+							</a>
+							<p class="tc-orange_red">
+							<?php echo date('F d, Y',strtotime($news->created_at)); ?>
+							</p>
+						</div>
+					</div>
+				</div>
+                <?php
+			   }
+				?>
+				
+			</div>
+		</div>
+	</section>
+
+<script>
+	$(function () {
+			var overlay = $('<div id="overlay"></div>');
+			overlay.show();
+			overlay.appendTo(document.body);
+			$('.popup').show();
+			$('.close').click(function () {
+				$('.popup').hide();
+				overlay.appendTo(document.body).remove();
+				return false;
+			});
+
+			$('.close').click(function () {
+				$('.popup').hide();
+				overlay.appendTo(document.body).remove();
+				return false;
+			});
+		});
+function subscribe()
+{
+	
+	var email=jQuery('#subscribeemail').val();
+	
+	$.ajax({
+	url:"<?php echo BASE_URL ?>home/subscribe",
+	method:"post",
+	data:jQuery('#subscribeform').serialize(),
+	success:function(res){
+	 jQuery('.subcribemsg').show();
+	 setTimeout(function(){ jQuery('.subcribemsg').hide(); $('.close').click(); }, 3000);
+
+	}
+		
+	});
+	
+	return false;
+	
+}
+</script>	

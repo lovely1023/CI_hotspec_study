@@ -1,0 +1,149 @@
+[18-May-2019 08:23:10 Etc/GMT] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/webpazmn/public_html/virat.org.in/demo/editor/scripts/saf/hyperlink.php on line 2
+[18-May-2019 08:23:10 Etc/GMT] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/webpazmn/public_html/virat.org.in/demo/editor/scripts/saf/hyperlink.php on line 2
+[18-May-2019 08:23:10 Etc/GMT] PHP Warning:  include(): Failed opening '../../../manager/includes/database.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/webpazmn/public_html/virat.org.in/demo/editor/scripts/saf/hyperlink.php on line 2
+[18-May-2019 08:23:10 Etc/GMT] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/webpazmn/public_html/virat.org.in/demo/editor/scripts/saf/hyperlink.php on line 3
+[18-May-2019 08:23:10 Etc/GMT] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/webpazmn/public_html/virat.org.in/demo/editor/scripts/saf/hyperlink.php on line 3
+[18-May-2019 08:23:10 Etc/GMT] PHP Warning:  include(): Failed opening '../../../manager/includes/functions.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/webpazmn/public_html/virat.org.in/demo/editor/scripts/saf/hyperlink.php on line 3
+[18-May-2019 08:23:10 Etc/GMT] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/webpazmn/public_html/virat.org.in/demo/editor/scripts/saf/hyperlink.php on line 4
+[18-May-2019 08:23:10 Etc/GMT] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/webpazmn/public_html/virat.org.in/demo/editor/scripts/saf/hyperlink.php on line 4
+[18-May-2019 08:23:10 Etc/GMT] PHP Warning:  include(): Failed opening '../../../manager/includes/common.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/webpazmn/public_html/virat.org.in/demo/editor/scripts/saf/hyperlink.php on line 4
+[18-May-2019 08:23:10 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/webpazmn/public_html/virat.org.in/demo/editor/scripts/saf/hyperlink.php:458
+Stack trace:
+#0 {main}
+  thrown in /home/webpazmn/public_html/virat.org.in/demo/editor/scripts/saf/hyperlink.php on line 458
+[08-Aug-2020 13:26:33 UTC] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[08-Aug-2020 13:26:33 UTC] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[08-Aug-2020 13:26:33 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/database.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[08-Aug-2020 13:26:33 UTC] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[08-Aug-2020 13:26:33 UTC] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[08-Aug-2020 13:26:33 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[08-Aug-2020 13:26:33 UTC] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[08-Aug-2020 13:26:33 UTC] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[08-Aug-2020 13:26:33 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/common.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[08-Aug-2020 13:26:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php:458
+Stack trace:
+#0 {main}
+  thrown in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 458
+[08-Aug-2020 22:57:02 UTC] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[08-Aug-2020 22:57:02 UTC] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[08-Aug-2020 22:57:02 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/database.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[08-Aug-2020 22:57:02 UTC] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[08-Aug-2020 22:57:02 UTC] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[08-Aug-2020 22:57:02 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[08-Aug-2020 22:57:02 UTC] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[08-Aug-2020 22:57:02 UTC] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[08-Aug-2020 22:57:02 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/common.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[08-Aug-2020 22:57:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php:458
+Stack trace:
+#0 {main}
+  thrown in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 458
+[18-Aug-2020 14:47:04 UTC] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[18-Aug-2020 14:47:04 UTC] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[18-Aug-2020 14:47:04 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/database.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[18-Aug-2020 14:47:04 UTC] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[18-Aug-2020 14:47:04 UTC] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[18-Aug-2020 14:47:04 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[18-Aug-2020 14:47:04 UTC] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[18-Aug-2020 14:47:04 UTC] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[18-Aug-2020 14:47:04 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/common.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[18-Aug-2020 14:47:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php:458
+Stack trace:
+#0 {main}
+  thrown in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 458
+[18-Aug-2020 14:47:15 UTC] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[18-Aug-2020 14:47:15 UTC] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[18-Aug-2020 14:47:15 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/database.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[18-Aug-2020 14:47:15 UTC] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[18-Aug-2020 14:47:15 UTC] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[18-Aug-2020 14:47:15 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[18-Aug-2020 14:47:15 UTC] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[18-Aug-2020 14:47:15 UTC] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[18-Aug-2020 14:47:15 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/common.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[18-Aug-2020 14:47:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php:458
+Stack trace:
+#0 {main}
+  thrown in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 458
+[18-Aug-2020 14:47:24 UTC] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[18-Aug-2020 14:47:24 UTC] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[18-Aug-2020 14:47:24 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/database.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[18-Aug-2020 14:47:24 UTC] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[18-Aug-2020 14:47:24 UTC] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[18-Aug-2020 14:47:24 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[18-Aug-2020 14:47:24 UTC] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[18-Aug-2020 14:47:24 UTC] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[18-Aug-2020 14:47:24 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/common.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[18-Aug-2020 14:47:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php:458
+Stack trace:
+#0 {main}
+  thrown in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 458
+[18-Aug-2020 14:47:34 UTC] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[18-Aug-2020 14:47:34 UTC] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[18-Aug-2020 14:47:34 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/database.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[18-Aug-2020 14:47:34 UTC] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[18-Aug-2020 14:47:34 UTC] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[18-Aug-2020 14:47:34 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[18-Aug-2020 14:47:34 UTC] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[18-Aug-2020 14:47:34 UTC] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[18-Aug-2020 14:47:34 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/common.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[18-Aug-2020 14:47:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php:458
+Stack trace:
+#0 {main}
+  thrown in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 458
+[21-Aug-2020 19:34:17 UTC] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[21-Aug-2020 19:34:17 UTC] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[21-Aug-2020 19:34:17 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/database.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[21-Aug-2020 19:34:17 UTC] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[21-Aug-2020 19:34:17 UTC] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[21-Aug-2020 19:34:17 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[21-Aug-2020 19:34:17 UTC] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[21-Aug-2020 19:34:17 UTC] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[21-Aug-2020 19:34:17 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/common.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[21-Aug-2020 19:34:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php:458
+Stack trace:
+#0 {main}
+  thrown in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 458
+[21-Aug-2020 19:36:30 UTC] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[21-Aug-2020 19:36:30 UTC] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[21-Aug-2020 19:36:30 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/database.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[21-Aug-2020 19:36:30 UTC] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[21-Aug-2020 19:36:30 UTC] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[21-Aug-2020 19:36:30 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[21-Aug-2020 19:36:30 UTC] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[21-Aug-2020 19:36:30 UTC] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[21-Aug-2020 19:36:30 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/common.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[21-Aug-2020 19:36:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php:458
+Stack trace:
+#0 {main}
+  thrown in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 458
+[24-Aug-2020 17:08:29 UTC] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[24-Aug-2020 17:08:29 UTC] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[24-Aug-2020 17:08:29 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/database.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[24-Aug-2020 17:08:29 UTC] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[24-Aug-2020 17:08:29 UTC] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[24-Aug-2020 17:08:29 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[24-Aug-2020 17:08:29 UTC] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[24-Aug-2020 17:08:29 UTC] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[24-Aug-2020 17:08:29 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/common.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[24-Aug-2020 17:08:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php:458
+Stack trace:
+#0 {main}
+  thrown in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 458
+[25-Aug-2020 04:57:54 UTC] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[25-Aug-2020 04:57:54 UTC] PHP Warning:  include(../../../manager/includes/database.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[25-Aug-2020 04:57:54 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/database.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[25-Aug-2020 04:57:54 UTC] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[25-Aug-2020 04:57:54 UTC] PHP Warning:  include(../../../manager/includes/functions.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[25-Aug-2020 04:57:54 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 3
+[25-Aug-2020 04:57:54 UTC] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[25-Aug-2020 04:57:54 UTC] PHP Warning:  include(../../../manager/includes/common.php): failed to open stream: No such file or directory in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[25-Aug-2020 04:57:54 UTC] PHP Warning:  include(): Failed opening '../../../manager/includes/common.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 4
+[25-Aug-2020 04:57:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php:458
+Stack trace:
+#0 {main}
+  thrown in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 458
+[25-Aug-2020 14:57:42 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 2
+[25-Aug-2020 14:57:42 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 458
+[25-Aug-2020 14:57:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php:458
+Stack trace:
+#0 {main}
+  thrown in /home/wpsdeqpu/public_html/dev/hotspecdemo/editor/scripts/saf/hyperlink.php on line 458
